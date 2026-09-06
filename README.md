@@ -10,13 +10,19 @@ I am a Software Engineering student focused on Machine Learning, Deep Learning, 
 
 ### 🛠️ Tech Stack
 
-- **Languages & Data:** Python, SQL, NumPy, Pandas, Matplotlib, Seaborn, Plotly
-- **Statistics & Data Analysis:** Hypothesis Testing (t-Tests, ANOVA, Chi-Square, Shapiro-Wilk, Levene's), Probability Distributions, Correlation Analysis, Outlier Detection (IQR), PCA
-- **Machine Learning:** Scikit-learn, XGBoost, Pipelines & ColumnTransformer, Feature Engineering & Preprocessing, Regression, Decision Trees, Random Forest, Clustering (K-Means, DBSCAN, Hierarchical, OPTICS), Model Evaluation & Hyperparameter Tuning
-- **Deep Learning:** TensorFlow, Keras, Artificial Neural Networks (ANN), CNNs, RNNs, LSTMs, GRUs, Custom Embeddings, Forward & Backpropagation, Optimizers & Loss Functions
-- **Computer Vision:** OpenCV, YOLOv8, Ultralytics, Roboflow, Real-Time Object Detection, Image Classification, Convolutional Kernels & Feature Maps
-- **Natural Language Processing:** Text Preprocessing, Tokenization, TF-IDF, TextVectorization, Word Embeddings, RNN-based Text Classification
-- **Tools & Deployment:** Git, GitHub, VS Code, Jupyter Notebook, Google Colab, Kaggle, FastAPI, AWS (EC2, Amplify), XAMPP
+**Languages & Data:** Python, SQL, NumPy, Pandas, Matplotlib, Seaborn, Plotly
+
+**Statistics & Analysis:** Statistical Analysis, Probability & Distributions, Hypothesis Testing, Correlation, Outlier Detection, PCA
+
+**Machine Learning:** Scikit-learn, XGBoost, Data Preprocessing, Feature Engineering, Pipelines, Model Evaluation, Hyperparameter Tuning, Regression, Classification, Clustering
+
+**Deep Learning:** TensorFlow, Keras, Neural Networks, CNN, RNN, LSTM, GRU, Embeddings
+
+**Computer Vision:** OpenCV, YOLOv8, Ultralytics, Roboflow, Image Classification, Object Detection
+
+**NLP:** Text Preprocessing, TF-IDF, TextVectorization, Embeddings, RNN-based Text Classification
+
+**Tools & Deployment:** Git, GitHub, VS Code, Jupyter Notebook, Google Colab, Kaggle, FastAPI, AWS, XAMPP
 
 ---
 
