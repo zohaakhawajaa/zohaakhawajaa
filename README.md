@@ -55,4 +55,4 @@ I am a Software Engineering student focused on Machine Learning, Deep Learning, 
 
 - **LinkedIn:** [linkedin.com/in/zoha-khawaja](https://www.linkedin.com/in/zoha-khawaja-99671831b/)
 - **Kaggle:** [kaggle.com/zohakhawaja](https://www.kaggle.com/zohakhawaja)
-- **Email:** [zohaakhawaja@gmail.com](mailto:zohaakhawaja@gmail.com)
+- **Email:** [zohaakhawajaa@gmail.com](mailto:zohaakhawaja@gmail.com)
