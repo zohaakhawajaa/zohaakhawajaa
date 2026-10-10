@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 660 118" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Devixo Solutions — AI / ML Internship">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070915"/>
+      <stop offset="1" stop-color="#0c0820"/>
+    </linearGradient>
+    <linearGradient id="pborder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+      <animate attributeName="x1" values="-1;0;-1" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;0" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="pbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="ptitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="658" height="116" rx="15" fill="url(#pbg)" stroke="url(#pborder)" stroke-opacity="0.55" stroke-width="1.2"/>
+  <circle cx="600" cy="24" r="90" fill="url(#pglow)"/>
+  <rect x="1" y="1" width="5" height="116" rx="2.5" fill="url(#pbar)"/>
+
+  <text x="622" y="82" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="56" font-weight="800" fill="#ffffff" opacity="0.055">06</text>
+
+  <text x="30" y="30" font-family="'Consolas', ui-monospace, monospace" font-size="13" letter-spacing="3" fill="#67e8f9">PROJECT 06</text>
+  <text x="30" y="68" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="23" font-weight="700" fill="url(#ptitle)">Devixo Solutions — AI / ML Internship</text>
+  <text x="30" y="96" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13.5" fill="#9aa4c7">Data analysis &amp; visualization internship tasks.</text>
+
+  <g>
+    <circle cx="30" cy="108" r="2.4" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="42" cy="108" r="2.4" fill="#818cf8"><animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="54" cy="108" r="2.4" fill="#a855f7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

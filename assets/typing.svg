@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 90" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Machine Learning Engineer, AI Developer, Python Developer, Computer Vision Enthusiast">
+  <defs>
+    <linearGradient id="tstrip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+      <animate attributeName="x1" values="-1;0;-1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ttext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9e6ff"/>
+      <stop offset="0.5" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+
+    <clipPath id="c1" clipPathUnits="userSpaceOnUse">
+      <rect x="135" y="0" width="0" height="90">
+        <animate attributeName="width" values="0;630;630;0;0" keyTimes="0;0.09375;0.2125;0.24375;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c2" clipPathUnits="userSpaceOnUse">
+      <rect x="298" y="0" width="0" height="90">
+        <animate attributeName="width" values="0;0;304;304;0;0" keyTimes="0;0.25;0.34375;0.4625;0.49375;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c3" clipPathUnits="userSpaceOnUse">
+      <rect x="248" y="0" width="0" height="90">
+        <animate attributeName="width" values="0;0;404;404;0;0" keyTimes="0;0.5;0.59375;0.7125;0.74375;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c4" clipPathUnits="userSpaceOnUse">
+      <rect x="97" y="0" width="0" height="90">
+        <animate attributeName="width" values="0;0;706;706;0;0" keyTimes="0;0.75;0.84375;0.9625;0.99375;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="4.5" width="899" height="81" rx="14" fill="#06070f" stroke="url(#tstrip)" stroke-opacity="0.45"/>
+  <circle cx="24" cy="20" r="4" fill="#22d3ee" opacity="0.85"/>
+  <circle cx="40" cy="20" r="4" fill="#818cf8" opacity="0.85"/>
+  <circle cx="56" cy="20" r="4" fill="#a855f7" opacity="0.85"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="600" fill="url(#ttext)">
+    <g clip-path="url(#c1)"><text x="135" y="60" textLength="630" lengthAdjust="spacingAndGlyphs">Machine Learning Engineer</text></g>
+    <g clip-path="url(#c2)"><text x="298" y="60" textLength="304" lengthAdjust="spacingAndGlyphs">AI Developer</text></g>
+    <g clip-path="url(#c3)"><text x="248" y="60" textLength="404" lengthAdjust="spacingAndGlyphs">Python Developer</text></g>
+    <g clip-path="url(#c4)"><text x="97" y="60" textLength="706" lengthAdjust="spacingAndGlyphs">Computer Vision Enthusiast</text></g>
+  </g>
+
+  <g fill="#67e8f9">
+    <g>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24375;0.25;1" dur="16s" repeatCount="indefinite"/>
+      <rect y="30" width="3" height="38" rx="1.5">
+        <animate attributeName="x" values="135;765;765" keyTimes="0;0.09375;1" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.25;0.49375;0.5;1" dur="16s" repeatCount="indefinite"/>
+      <rect y="30" width="3" height="38" rx="1.5">
+        <animate attributeName="x" values="298;298;602;602" keyTimes="0;0.25;0.34375;1" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.5;0.74375;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <rect y="30" width="3" height="38" rx="1.5">
+        <animate attributeName="x" values="248;248;652;652" keyTimes="0;0.5;0.59375;1" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.75;0.99375;1" dur="16s" repeatCount="indefinite"/>
+      <rect y="30" width="3" height="38" rx="1.5">
+        <animate attributeName="x" values="97;97;803;803" keyTimes="0;0.75;0.84375;1" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </g>
+  </g>
+</svg>

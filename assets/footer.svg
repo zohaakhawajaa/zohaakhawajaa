@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 180" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Zoha Khawaja — footer">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04050b"/>
+      <stop offset="1" stop-color="#0b0620"/>
+    </linearGradient>
+    <linearGradient id="fwave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+      <animate attributeName="x1" values="-1;0;-1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ftext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="fglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="180" fill="url(#fbg)"/>
+  <path d="M0 34 Q 300 -6 600 34 T 1200 34" fill="none" stroke="url(#fwave)" stroke-width="2" opacity="0.9"/>
+  <path d="M0 46 Q 300 6 600 46 T 1200 46" fill="none" stroke="url(#fwave)" stroke-width="1" opacity="0.35"/>
+
+  <circle cx="600" cy="96" r="70" fill="url(#fglow)"/>
+
+  <g transform="translate(600 58)">
+    <circle r="26" fill="#0b0620" stroke="url(#fwave)" stroke-width="1.6"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="url(#ftext)">ZK</text>
+    <circle r="30" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="28;34;28" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600" y="120" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="17" font-style="italic" fill="url(#ftext)">Building practical AI systems, one project at a time.</text>
+  <text x="600" y="147" text-anchor="middle" font-family="'Consolas', ui-monospace, monospace" font-size="12.5" letter-spacing="2" fill="#8b96c4">@zohaakhawajaa</text>
+
+  <rect x="0" y="176" width="1200" height="3" fill="url(#fwave)"/>
+</svg>
